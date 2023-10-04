@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 enable_testing()
 
 add_subdirectory(googletest) 
-include_directories(googletest/include) 
 
 add_executable(tests test.cpp func.cpp) 
 add_executable(main main.cpp func.cpp)
